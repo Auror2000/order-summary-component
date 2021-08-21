@@ -1,0 +1,218 @@
+body {
+    width:1440px;
+    height:900px;
+    padding:0;
+    margin:0;
+    background-image:url('images/pattern-background-desktop.svg');
+    background-repeat:no-repeat;
+}
+.main {
+    width:450px;
+    height:700px;
+    margin:90px auto 0px auto;
+    border-radius:25px;
+    background-color:#ffffff;
+    box-shadow:2px 2px 13px -6px rgba(0,0,0,1);
+}
+.illustration-hero {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main-header {
+    text-align:center;
+    color:hsl(223, 47%, 23%);
+    font-family:sans-serif;
+    font-size:26px;
+    display:relative;
+    top:60px;
+}
+.paragraph {
+    font-family:verdana;
+    text-align:center;
+    color: hsl(224, 23%, 55%);
+}
+.music {
+    width:360px;
+    height:90px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius:10px;
+    margin: 30px auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.music-img {
+    width:45px;
+    height:45px;
+}
+.Music-link {
+    color:hsl(245, 75%, 52%);
+    font-family:sans-serif;
+    font-weight:700;
+    font-size:16px;
+}
+.Music-link:hover {
+    text-decoration: none;
+    color: rgba(122,114,198,255);
+}
+span {
+    color:hsl(223, 47%, 23%);
+    font-family:sans-serif;
+    font-weight:900;
+    font-size:16px;
+}
+.music-paragraph {
+    color:hsl(224, 23%, 55%);
+    text-align:center;
+    font-family:verdana;
+    margin-right:45px;
+}
+.button {
+    width: 340px;
+    height:25px;
+    background-color:blue;
+    padding:10px;
+    color:white;
+    margin:30px auto 0px auto;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-weight:700;
+    font-size:16px;
+    box-shadow: 0px 10px 24px -10px rgba(0,0,0,0.81);
+}
+.button:hover{
+    background-color:#766cf1;
+}
+.cancel-link {
+    text-align:center;
+    margin: 50px auto;
+    display:block;
+    font-family:sans-serif;
+    text-decoration:none;
+    font-weight:900;
+    color:hsl(224, 23%, 55%);
+}
+.cancel-link:hover {
+    color:hsl(223, 47%, 23%);
+}
+
+
+@media (min-width:400px) {
+    body {
+        padding:0;
+        margin:0;
+        width:375px;
+        height:709px;
+        background-color:hsl(225, 100%, 94%);
+        margin:10px auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+.main {
+    width:320px;
+    height:550px;
+    border-radius:25px;
+    background-color:#ffffff;
+    box-shadow:2px 2px 13px -6px rgba(0,0,0,1);
+}
+
+.illustration-hero {
+    width:320px;
+    height:160px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main-header {
+    text-align:center;
+    color:hsl(223, 47%, 23%);
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight:900;
+    margin-top:25px;
+}
+
+.paragraph {
+    font-family:verdana;
+    text-align:center;
+    color: hsl(224, 23%, 55%);
+    font-size:14px;
+    line-height:1.6;
+    margin-top:17px;
+}
+
+.music {
+    width:280px;
+    height:80px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius:10px;
+    margin: 25px auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.Music-link {
+    color:hsl(245, 75%, 52%);
+    font-family:sans-serif;
+    font-weight:700;
+    font-size:14px;
+}
+.Music-link:hover {
+    text-decoration: none;
+    color: rgba(122,114,198,255);
+}
+span {
+    color:hsl(223, 47%, 23%);
+    font-family:sans-serif;
+    font-weight:900;
+    font-size:15px;
+}
+.music-paragraph {
+    color:hsl(224, 23%, 55%);
+    text-align:center;
+    font-family:verdana;
+    font-size:15px;
+    margin-right:20px;
+}
+
+.button {
+    width: 260px;
+    height:25px;
+    background-color:blue;
+    padding:10px;
+    color:white;
+    margin:20px auto 0px auto;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-weight:700;
+    font-size:14px;
+    box-shadow: 0px 10px 24px -10px rgba(0,0,0,0.81);
+}
+.button:hover{
+    background-color:#766cf1;
+}
+
+.cancel-link {
+    text-align:center;
+    margin: 25px auto;
+    display:block;
+    font-family:sans-serif;
+    text-decoration:none;
+    font-weight:700;
+    font-size:14px;
+    color:hsl(224, 23%, 55%);
+}
+
+.cancel-link:hover {
+    color:hsl(223, 47%, 23%);
+}
